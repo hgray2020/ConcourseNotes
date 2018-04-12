@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('concoursenotes.com/phpmyadmin', 'root', 'b-E9GQ4z_8-xK7wJ');
+$connection = mysqli_connect('localhost', 'root', 'b-E9GQ4z_8-xK7wJ');
 if (!$connection){
     die("Database Connection Failed" . mysqli_error($connection));
 }
